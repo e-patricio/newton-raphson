@@ -30,7 +30,7 @@
 	lw	$a0, 4($sp)		# Recupera o valor que esta na segunda posicao da pilha de volta ao $a0 
 	lw	$v0, 0($sp)		# Recupera o valor que esta no topo da pilha de volta ao $v0
 	addi	$sp, $sp, 8		# Apaga o espaco aberto na pilha
-.end_macro
+.end_macro 
 		
 .macro callRaiz()			# Macro para chamar a funcao raiz
 	addi	$sp, $sp, -12		# Abre tres espacos na pilha
@@ -47,7 +47,7 @@
 .macro resultado()			# Macro para printar o resultado
 	sw	$v0, result		# Salva em result o valor lido em $v0
 	prtStr(strRaizI)		# Print("sqrt("
-	prtInt(x)			# Print("sqrt(" + x"
+	prtInt(x)			# Print("sqrt(" + x
 	prtStr(strVirg)			# Print("sqrt(" + x + ", "
 	prtInt(i)			# Print("sqrt(" + x + ", " + i
 	prtStr(strRaizF)		# Print("sqrt(" + x + ", " + i + ") = "
