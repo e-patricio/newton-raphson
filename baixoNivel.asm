@@ -20,7 +20,7 @@
 	addi 	$sp, $sp, 4		# Apaga o espaco aberto na pilha
 .end_macro
 
-.macro prtInt(%inteiro)		# Macro para printar um valor inteiro			
+.macro prtInt(%inteiro)			# Macro para printar um valor inteiro			
 	addi	$sp, $sp, -8		# Abre dois espacos na pilha
 	sw	$v0, 0($sp)		# Guarda o valor que esta no registrador $v0 no topo da pilha
 	sw	$a0, 4($sp)		# Guarda o valor que esta no registrador $a0 na segunda posicao da pilha
