@@ -4,11 +4,11 @@ public class altoNivel {
     // Método para calcular a raiz quadrada usando o método Newton-Raphson recursivamente
     public static int sqrt_nr(int x, int i) {
         int result = 0;
-        // Caso base: se i for 0, a raiz quadrada é 1
+        // Caso base: se i for 0, retorna 1 e faz o primeiro cálculo do método
         if (i == 0) {
             result = 1;
         }
-        // Caso contrário, aplica-se o método Newton-Raphson recursivamente
+        // Caso contrário, faz o cálculo i-1 do método recursivamente
         if (i > 0) {
             result = (sqrt_nr(x, i - 1) + (x / sqrt_nr(x, i - 1))) / 2;
         }
