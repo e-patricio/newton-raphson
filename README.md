@@ -4,7 +4,7 @@ Este projeto tem como objetivo implementar uma versão recursiva do método num�
 
 A regra de recursividade que implementa o cálculo da raiz quadrada utilizando o método Newton-Raphson é a seguinte:
 <p align="center">
-  <img src="https://github.com/e-patricio/newton-raphson/assets/140465756/e782416a-53fc-4b60-a2b9-9c62abe8c414" alt="Fórmula">
+  <img src="https://github.com/e-patricio/newton-raphson/assets/140465756/64ad6f32-977d-408e-a588-ccdcb83dca10" alt="Fórmula">
 </p>
 
 Onde x é o valor que desejamos encontrar a raiz quadrada, e i é o número de iterações que o método irá executar. Por exemplo, se executarmos a função para x = 100 e i = 3 a função retornará a
