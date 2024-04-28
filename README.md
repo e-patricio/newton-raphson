@@ -11,7 +11,7 @@ Onde x é o valor que desejamos encontrar a raiz quadrada, e i é o número de i
 resposta sqrt_nr(100, 3) = 26, pois não houveram iterações suficientes para que o resultado convergisse. Agora, para os valores de x = 100 e i = 5, temos: sqrt_nr(100, 5) = 10, ou seja, o resultado
 convergiu adequadamente pois √100 = 10.
 
-## Como Executar
+## Como executar
 Para executar o alto nível desse programa:
 1. Certifique-se de ter o Java instalado na máquina. Caso não tenha, acesse o [site oficial do Java](https://www.java.com/pt-BR/download/) e siga as instruções de instalação.
 2. Utilize uma IDE (ferramenta de desenvolvimento) compatível com Java.
